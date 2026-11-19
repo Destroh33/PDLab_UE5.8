@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SuthanaLab",
+	"Description": "Helper plugin",
+	"Category": "Other",
+	"CreatedBy": "dbatista",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SuthanaLab",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

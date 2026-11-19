@@ -74,3 +74,32 @@ Plugins/**/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/
 **/DerivedDataCache/**
+
+# Unreal folders inside the PDLabTest project
+PDLabTest/Intermediate/
+PDLabTest/Plugins/*/Intermediate/
+PDLabTest/DerivedDataCache/
+PDLabTest/Saved/
+PDLabTest/.claude/
+PDLabTest/.vs/
+*.pdb
+*.slnx
+.vsconfig
+
+# Keep project/plugin binaries and plugin third-party libraries so another PC
+# can open the project without compiling
+!PDLabTest/Binaries/
+!PDLabTest/Binaries/**
+!PDLabTest/Plugins/**/Binaries/
+!PDLabTest/Plugins/**/Binaries/**
+!PDLabTest/Plugins/**/*.dll
+!PDLabTest/Plugins/**/*.lib
+!PDLabTest/Plugins/**/*.so
+!PDLabTest/Plugins/**/*.a
+!PDLabTest/Binaries/**/*.dll
+
+# Keep built lighting so maps don't need a lighting rebuild after pulling
+!*_BuiltData.uasset
+
+# Debug symbols are large and not needed to run the editor
+*.pdb
